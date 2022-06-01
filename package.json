@@ -1,0 +1,20 @@
+{
+  "name": "tailwindcss-react-native-snack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepublishOnly": "npm run generate",
+    "generate": "tailwindcss -i input.css --postcss postcss.config.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "3.0.24",
+    "tailwindcss-react-native": "^1.7.1"
+  },
+  "files": [
+    "index.js",
+    "tailwindcss-react-native-output.js"
+  ]
+}
